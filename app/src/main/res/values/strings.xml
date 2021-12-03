@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">CoroutinesStudy</string>
+    <string name="insert_name">Insert Your Name</string>
+    <string name="submit">Submit</string>
+    <string name="type_a_number">Type a number</string>
+    <string name="go">Go</string>
+    <string name="clique_aqui_para_avan_ar">Clique aqui para avançar</string>
+    <string name="digite_algo">Digite algo</string>
+    <string name="aceito_os_termos">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s.</string>
+    <string name="third_message">Lorem Ipsum is simply dummy text of the printing and typesetting industry.More recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="go_next">Go Next</string>
+    <string name="download">Download</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="title_activity_retrofit">RetrofitActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_transform">Transform</string>
+    <string name="menu_reflow">Reflow</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="lorem_ipsum_title">Lorem Ipsum"</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply placeholder text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry\'s standard placeholder text ever
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+        type specimen book"
+    </string>
+    <string name="go_to_retrofit">Go to Retrofit</string>
+</resources>

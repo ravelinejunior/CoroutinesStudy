@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstNavigationFragment">
+
+    <fragment
+        android:id="@+id/firstNavigationFragment"
+        android:name="br.com.raveline.coroutinesstudy.ui.fragments.FirstNavigationFragment"
+        android:label="FirstNavigationFragment">
+        <action
+            android:id="@+id/action_firstNavigationFragment_to_secondNavigationFragment"
+            app:destination="@id/secondNavigationFragment"
+            app:enterAnim="@anim/animation_graph_down_in"
+            app:exitAnim="@anim/animation_graph_2_down_out"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/animation_graph_3_slide_in"
+            app:popExitAnim="@anim/animation_graph_down_in"
+            app:popUpTo="@id/secondNavigationFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="text"
+            app:argType="string"
+            android:defaultValue="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/secondNavigationFragment"
+        android:name="br.com.raveline.coroutinesstudy.ui.fragments.SecondNavigationFragment"
+        android:label="SecondNavigationFragment">
+        <action
+            android:id="@+id/action_secondNavigationFragment_to_thirdNavigationFragment"
+            app:destination="@id/thirdNavigationFragment"
+            app:enterAnim="@anim/animation_graph_2_down_out"
+            app:exitAnim="@anim/animation_graph_3_slide_in"
+            app:launchSingleTop="true" />
+        <action
+            android:id="@+id/action_secondNavigationFragment_to_firstNavigationFragment"
+            app:destination="@id/firstNavigationFragment"
+            app:enterAnim="@anim/animation_graph_3_slide_in"
+            app:exitAnim="@anim/animation_graph_4_slide_out"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/animation_graph_2_down_out"
+            app:popExitAnim="@anim/animation_graph_down_in" />
+        <argument
+            android:name="anotherText"
+            app:argType="string"
+            android:defaultValue="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdNavigationFragment"
+        android:name="br.com.raveline.coroutinesstudy.ui.fragments.ThirdNavigationFragment"
+        android:label="ThirdNavigationFragment">
+        <action
+            android:id="@+id/action_thirdNavigationFragment_to_secondNavigationFragment"
+            app:destination="@id/secondNavigationFragment"
+            app:enterAnim="@anim/animation_graph_2_down_out"
+            app:exitAnim="@anim/animation_graph_4_slide_out"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/animation_graph_3_slide_in"
+            app:popExitAnim="@anim/animation_graph_down_in" />
+        <action
+            android:id="@+id/action_thirdNavigationFragment_to_firstNavigationFragment"
+            app:destination="@id/firstNavigationFragment"
+            app:enterAnim="@anim/animation_graph_down_in"
+            app:exitAnim="@anim/animation_graph_3_slide_in"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/animation_graph_2_down_out" />
+        <argument
+            android:name="thirdText"
+            app:argType="string"
+            android:defaultValue="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_design_services_24.xml" value="0.209375" />
+        <entry key="app/src/main/res/font/autour_one.xml" value="0.2234375" />
+        <entry key="app/src/main/res/layout-w1240dp/content_retrofit.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_coroutines.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_retrofit.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/activity_room_retrofit.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_second_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_third_navigation.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/app_bar_retrofit.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/content_retrofit.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/first_navigation_fragment.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/item_room_adapter.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/second_navigation_fragment.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/third_navigation_fragment.xml" value="0.19322916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

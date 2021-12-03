@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.fragments.FirstNavigationFragment">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewFirstNavigationFragment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="168dp"
+            android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:fontFamily="@font/autour_one"
+            android:padding="8dp"
+            android:text="@string/clique_aqui_para_avan_ar"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <EditText
+            android:id="@+id/editTextFirstNavigationFragment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:paddingHorizontal="8dp"
+            android:fontFamily="@font/autour_one"
+            android:hint="@string/digite_algo"
+            android:inputType="textPersonName"
+            android:paddingVertical="8dp"
+            app:layout_constraintEnd_toEndOf="@+id/textViewFirstNavigationFragment"
+            app:layout_constraintStart_toStartOf="@+id/textViewFirstNavigationFragment"
+            app:layout_constraintTop_toBottomOf="@+id/textViewFirstNavigationFragment" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
